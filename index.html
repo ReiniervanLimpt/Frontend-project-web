@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/screens.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html">Leeslijst</a>
+        </li>
+        <li>
+          <a href="index.html">Profiel</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+
+      <aside>
+        <a href="">Lees een willekeurig verhaal!</a>
+      </aside>
+
+      <section>
+
+        <header>
+          <h1>Laat je inspireren</h1>
+        </header>
+
+        <ul>
+          <li>
+            <p>20 min</p><a href="verhaal.html">Heroïsch Vers</a>
+          </li>
+          <li>
+            <img src="./images/add_button.svg" alt="">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>15 min</p><a href="verhaal.html">Kinderboek</a>
+          </li>
+          <li>
+            <img src="./images/add_button.svg" alt="">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>10 min</p><a href="verhaal.html">Kater</a>
+          </li>
+          <li>
+            <img src="./images/add_button.svg" alt="">
+          </li>
+        </ul>
+
+        <footer> </footer>
+        <figure>
+          <img src="./images/heading_element.svg" alt="">
+        </figure>\
+      </section>
+    </div>
+  </header>
+
+  <main>
+
+
+
+    <section class="alle_verhalen">
+      <header>
+        <h1>Alle verhalen</h1>
+        <button type="button" onfocusout="blurFunction()">Filter verhalen</button>
+        <div class="dropdown">
+          <a class="dropbtn">Sorteer verhalen</a>
+          <div class="dropdown-content">
+            <p>Best beoordeeld</p>
+            <p>Nieuwste</p>
+            <p>Meest gelezen</p>
+          </div>
+        </div>
+
+        <form id="verhalenFilter" action="">
+
+          <fieldset>
+            <legend>sfeerwoord</legend>
+            <ul>
+              <li>
+                <input type="radio" id="optie-1" name="sfeerwoord">
+                <label for="optie-1">Spannend</label>
+                <div class="check">
+                </div>
+              </li>
+              <li>
+                <input type="radio" id="optie-2" name="sfeerwoord">
+                <label for="optie-2">Romantiek</label>
+                <div class="check">
+                </div>
+              </li>
+              <li>
+                <input type="radio" id="optie-3" name="sfeerwoord">
+                <label for="optie-3">Comedy</label>
+                <div class="check">
+                </div>
+              </li>
+              <li>
+                <input type="radio" id="optie-4" name="sfeerwoord">
+                <label for="optie-4">Tragedie</label>
+                <div class="check">
+                </div>
+              </li>
+            </ul>
+            <legend>leestijd</legend>
+            <p id="sliderRange"></p>
+            <p> minuten</p>
+            <input type="range" min="5" max="30" value="5" class="slider" id="myRange">
+          </fieldset>
+
+          <fieldset>
+            <label for="surname">Publicatiejaar</label>
+            <input type="number" min="2010" max="2020">
+
+          </fieldset>
+
+          <input class="submitfilter" type="submit" value="filteren">
+
+        </form>
+
+
+      </header>
+
+
+      <section>
+
+        <article>
+          <img src="./images/Heroïschvers.jpg" alt="">
+          <ul>
+            <li><img src="./images/like_button.svg" alt=""></li>
+            <li>
+              <p>145</p>
+            </li>
+            <li><img src="./images/add_button.svg" alt=""></li>
+          </ul>
+          <h2>Heroïsch vers</h2>
+          <p>15 min</p>
+        </article>
+        <article>
+          <img src="./images/Kinderboek.jpg" alt="">
+          <ul>
+            <li><img src="./images/like_button.svg" alt=""></li>
+            <li>
+              <p>145</p>
+            </li>
+            <li><img src="./images/add_button.svg" alt=""></li>
+          </ul>
+          <h2>Kinderboek</h2>
+          <p>20 min</p>
+        </article>
+        <article>
+          <img src="./images/Kater.jpg" alt="">
+          <ul>
+            <li><img src="./images/like_button.svg" alt=""></li>
+            <li>
+              <p>145</p>
+            </li>
+            <li><img src="./images/add_button.svg" alt=""></li>
+          </ul>
+          <h2>Kater</h2>
+          <p>5 min</p>
+        </article>
+        <article>
+          <img src="./images/Heroïschvers.jpg" alt="">
+          <ul>
+            <li><img src="./images/like_button.svg" alt=""></li>
+            <li>
+              <p>145</p>
+            </li>
+            <li><img src="./images/add_button.svg" alt=""></li>
+          </ul>
+          <h2>Heroïsch vers</h2>
+          <p>15 min</p>
+        </article>
+        <article>
+          <img src="./images/Kinderboek.jpg" alt="">
+          <ul>
+            <li><img src="./images/like_button.svg" alt=""></li>
+            <li>
+              <p>145</p>
+            </li>
+            <li><img src="./images/add_button.svg" alt=""></li>
+          </ul>
+          <h2>Kinderboek</h2>
+          <p>20 min</p>
+        </article>
+        <article>
+          <img src="./images/Kater.jpg" alt="">
+          <ul>
+            <li><img src="./images/like_button.svg" alt=""></li>
+            <li>
+              <p>145</p>
+            </li>
+            <li><img src="./images/add_button.svg" alt=""></li>
+          </ul>
+          <h2>Kater</h2>
+          <p>5 min</p>
+        </article>
+
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>&#169; Reinier van Limpt</p>
+  </footer>
+  <script src="./JS/verhalen.js"></script>
+</body>
+
+</html>

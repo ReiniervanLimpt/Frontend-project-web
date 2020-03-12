@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "nexa";
+    src: url("../fonts/Nexa_Regular-webfont.woff2") format('woff');
+}
+
+@font-face {
+    font-family: "nexaBold";
+    src: url("../fonts/Nexa_XBold-webfont.woff2") format('woff');
+    font-weight: bold;
+}
